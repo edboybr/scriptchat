@@ -19,7 +19,7 @@ somafatura =  parseFloat(f1_1) + parseFloat(f2_1) + parseFloat(f3_1) + parseFloa
 
 
 
-    resoma.innerHTML = `Toltal das faturas vencidas = ${somafatura}`
+    resoma.innerHTML = `Toltal das faturas vencidas = ${somafatura.toFixed(2)}`
 
 }
 
