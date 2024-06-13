@@ -141,3 +141,130 @@ function parcelase() {
 
 
 }
+
+
+
+  function resposta0() {
+              
+              a1 = document.querySelector("input#bt0")
+              
+              a1_1 = (a1.value)
+            
+            resposta = document.querySelector("div#res0")
+            
+            resposta.innerHTML = `Solicitante: ${a1_1}`
+        }
+        
+        function resposta1() {
+            
+            resposta = document.querySelector("div#res1")
+            
+            resposta.innerHTML = "Sem acesso"
+        }
+        function resposta2() {
+            
+            resposta = document.querySelector("div#res1")
+            
+            resposta.innerHTML = "Lentidão"
+        }
+        function resposta3() {
+            
+            resposta = document.querySelector("div#res1")
+            
+            resposta.innerHTML = "Intermitência"
+        }
+        
+         function resposta4() {
+            
+            resposta = document.querySelector("div#res2")
+            
+            resposta.innerHTML = "Sinal normal, uptime:, sem ip na vlan, velocidade incorreta"
+        }
+        function resposta5() {
+            
+            resposta = document.querySelector("div#res2")
+            
+            resposta.innerHTML = "Sinal alterado"
+        }
+        function resposta6() {
+            
+            resposta = document.querySelector("div#res2")
+            
+            resposta.innerHTML = "Sem info de sinal e sem acesso a interface"
+        }
+        
+         function resposta7_1() {
+            
+            resposta = document.querySelector("div#res3")
+            
+            resposta.innerHTML = "Reset"
+        }
+        
+         function resposta7_2() {
+            
+            resposta = document.querySelector("div#res3")
+            
+            resposta.innerHTML = "Reinstalar"
+        }
+        
+            function resposta7() {
+            
+            resposta = document.querySelector("div#res3")
+            
+            resposta.innerHTML = "Otimizado wifi"
+        }
+        function resposta8() {
+            
+            resposta = document.querySelector("div#res3")
+            
+            resposta.innerHTML = "Otimizado wifi, e reboot"
+        }
+        function resposta9() {
+            
+            resposta = document.querySelector("div#res3")
+            
+            resposta.innerHTML = "Otimizado wifi, fixado dns e reboot"
+        }
+        
+          function resposta10() {
+            
+            resposta = document.querySelector("div#res4")
+            
+            resposta.innerHTML = "Sucesso"
+        }
+        function resposta11() {
+            
+            resposta = document.querySelector("div#res4")
+            
+            resposta.innerHTML = "Sem sucesso, splitter com sinal, aberta VT"
+            
+        }
+        function resposta12() {
+            
+            resposta = document.querySelector("div#res4")
+            
+            resposta.innerHTML = "Cliente ficou de testar"
+        }
+        
+        
+        function resposta13() {
+              
+              b1 = document.querySelector("input#bt13")
+              
+              b1_1 = (b1.value)
+            
+            resposta = document.querySelector("div#res5")
+            
+            resposta.innerHTML = `Telefone: ${b1_1}`
+        }
+        
+         function resposta14() {
+              
+              c1 = document.querySelector("input#bt14")
+              
+              c1_1 = (c1.value)
+            
+            resposta = document.querySelector("div#res6")
+            
+            resposta.innerHTML = `Prazo: ${c1_1}`
+        }
