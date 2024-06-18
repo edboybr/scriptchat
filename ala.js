@@ -144,7 +144,7 @@ function parcelase() {
 
 
 
-  function resposta0() {
+ function resposta0() {
               
               a1 = document.querySelector("input#bt0")
               
@@ -159,7 +159,7 @@ function parcelase() {
             
             resposta = document.querySelector("div#res1")
             
-            resposta.innerHTML = "Sem acesso"
+            resposta.innerHTML = "Sem acesso, onu down, los ativo"
         }
         function resposta2() {
             
@@ -172,6 +172,12 @@ function parcelase() {
             resposta = document.querySelector("div#res1")
             
             resposta.innerHTML = "Intermitência"
+        }
+         function resposta3_1() {
+            
+            resposta = document.querySelector("div#res1")
+            
+            resposta.innerHTML = "Solicitou alteração de senha do wifi, feito com sucesso"
         }
         
          function resposta4() {
@@ -191,6 +197,13 @@ function parcelase() {
             resposta = document.querySelector("div#res2")
             
             resposta.innerHTML = "Sem info de sinal e sem acesso a interface"
+        }
+        
+        function resposta6_1() {
+            
+            resposta = document.querySelector("div#res2")
+            
+            resposta.innerHTML = "Sem provisionamento"
         }
         
          function resposta7_1() {
@@ -236,7 +249,7 @@ function parcelase() {
             
             resposta = document.querySelector("div#res4")
             
-            resposta.innerHTML = "Sem sucesso, splitter com sinal, aberta VT"
+            resposta.innerHTML = "Sem sucesso, splitter com sinal, visto com N2, aberta VT"
             
         }
         function resposta12() {
@@ -244,6 +257,14 @@ function parcelase() {
             resposta = document.querySelector("div#res4")
             
             resposta.innerHTML = "Cliente ficou de testar"
+        }
+        
+        
+        function resposta12_1() {
+            
+            resposta = document.querySelector("div#res4")
+            
+            resposta.innerHTML = "Cliente parou de interagir"
         }
         
         
@@ -268,3 +289,4 @@ function parcelase() {
             
             resposta.innerHTML = `Prazo: ${c1_1}`
         }
+           
